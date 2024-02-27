@@ -1,6 +1,6 @@
 export const SuperData = () => {
     return (
-        <div className="relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
+        <div className="relative px-4 mx-auto lg:py-16 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
             <div className="max-w-xl mx-auto lg:max-w-screen-xl">
                 <div className="mb-16 lg:max-w-lg lg:mb-0">
                     <div className="max-w-xl mb-6">
@@ -17,10 +17,10 @@ export const SuperData = () => {
                                 for user experience
                             </span>
                         </h2>
-                        <p className="text-base text-gray-700 md:text-lg">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                            quae. explicabo.
+                        <p className="text-base text-white md:text-lg">
+                            A calculator that allows you to access an accurate
+                            and precise quote in just a few clicks with
+                            an ultra comfortable user experience
                         </p>
                     </div>
                     <div className="flex items-center">

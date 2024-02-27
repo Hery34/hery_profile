@@ -3,6 +3,9 @@ import React from "react";
 import { Navigation } from "../components/navbar";
 import { Annexx } from "../components/annexx";
 import { SuperData } from "../components/super_data";
+import Footer from "../components/footer";
+import { Lgae } from "../components/lgae";
+import { Portofolio } from "../components/portofolio";
 
 
 
@@ -12,7 +15,11 @@ export default function Home() {
             <Navigation />
 
             <Annexx></Annexx>
+            <Portofolio></Portofolio>
             <SuperData></SuperData>
+            <div style={{ marginTop: '100px' }}></div>
+            <Lgae></Lgae>
+            <Footer></Footer>
 
 
         </div>

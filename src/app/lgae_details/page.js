@@ -5,7 +5,7 @@ import InformationAlert from "../components/information_alert";
 import React, { useState } from 'react';
 import Footer from "../components/footer";
 
-export default function DetailSuperdata() {
+export default function DetailsLgae() {
     const [showAlert, setShowAlert] = useState(false);
     return (
         <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
@@ -17,14 +17,14 @@ export default function DetailSuperdata() {
                     <h2 className="text-base font-semibold tracking-wide text-zinc-400  uppercase">
                         Features
                     </h2>
-                    <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-rose-300 dark:text-white sm:text-4xl">
-                        superData.fr
+                    <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-yellow-700 dark:text-white sm:text-4xl">
+                        legrenieraepices.com
                     </p>
                 </div>
                 <div className="flex flex-wrap my-12 dark:text-white">
                     <div className="w-full p-8 border-b md:w-1/2 md:border-r lg:w-1/3">
                         <div className="flex items-center mb-6">
-                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6 text-rose-300" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6 text-yellow-700" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
                                 </path>
                             </svg>
@@ -33,12 +33,12 @@ export default function DetailSuperdata() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            From July 2024 to August 2024
+                            From December 2020 to Avril 2021
                         </p>
                     </div>
                     <div className="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r">
                         <div className="flex items-center mb-6">
-                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-rose-300" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-yellow-700" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
                                 </path>
                             </svg>
@@ -47,12 +47,12 @@ export default function DetailSuperdata() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            JavaScript, Sql
+                            Html, Css, JavaScript, Sql
                         </p>
                     </div>
                     <div className="w-full p-8 border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0">
                         <div className="flex items-center mb-6">
-                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-rose-300" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-yellow-700" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
                                 </path>
                             </svg>
@@ -61,12 +61,12 @@ export default function DetailSuperdata() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            React, Next JS, Tailwind CSS,
+                            WordPress, Elementor
                         </p>
                     </div>
                     <div className="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0">
                         <div className="flex items-center mb-6">
-                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-rose-300" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-yellow-700" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
                                 </path>
                             </svg>
@@ -75,12 +75,12 @@ export default function DetailSuperdata() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            PostegreSQL, Supabase
+                            PHP 8.0, Mysql, Sql
                         </p>
                     </div>
                     <div className="w-full p-8 border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0">
                         <div className="flex items-center mb-6">
-                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-rose-300" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-yellow-700" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
                                 </path>
                             </svg>
@@ -94,7 +94,7 @@ export default function DetailSuperdata() {
                     </div>
                     <div className="w-full p-8 md:w-1/2 lg:w-1/3">
                         <div className="flex items-center mb-6">
-                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-rose-300" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="20" height="20" fill="currentColor" className="w-6 h-6  text-yellow-700" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
                                 </path>
                             </svg>
@@ -103,13 +103,13 @@ export default function DetailSuperdata() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            SEO Optimized, onlineQuote, interactive geographic map...
+                            SEO Optimized, online paiements, caddy management, newsletter, google analytics, delivery management...
                         </p>
                     </div>
                 </div>
                 <div className="flex justify-center">
                     <Button onClick={() => setShowAlert(true)}>See the code</Button>
-                    {showAlert && <InformationAlert onClose={() => setShowAlert(false)}>Unfortunatly, it is a proprietary code</InformationAlert>}
+                    {showAlert && <InformationAlert onClose={() => setShowAlert(false)}>It's a WordPress project, no code available</InformationAlert>}
                 </div>
             </div>
             <Footer></Footer>

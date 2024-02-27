@@ -5,6 +5,7 @@ import { Card } from "../components/card";
 import { InformationCard } from "../components/InformationCard";
 import { Title } from "../components/title";
 import { Text } from "../components/text";
+import Footer from "../components/footer";
 
 
 export default function AboutMe() {
@@ -24,7 +25,7 @@ export default function AboutMe() {
                         <svg
                             viewBox="0 0 52 24"
                             fill="currentColor"
-                            className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                            className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20  text-zinc-400 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                         >
                             <defs>
                                 <pattern
@@ -43,13 +44,13 @@ export default function AboutMe() {
                                 height="24"
                             />
                         </svg>
-                        <span className="relative">The</span>
+                        <span className="relative">An individual</span>
                     </span>{' '}
-                    quick, brown fox jumps over a lazy dog
+                    with an immense capacity for learning and adaptation
                 </h2>
                 <p className="text-base text-white md:text-lg">
-                    Despite the dark theme of my portofolio site, i'm
-                    not that dark one, even the contrary : a really optimistic one
+                    My unconventional journey has allowed me to develop a capacity for synthesis and qualities of perspective,
+                    and despite this dark theme, I have a great sense of humor
                 </p>
             </div>
             <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
@@ -71,8 +72,8 @@ export default function AboutMe() {
                     </div>
                     <h6 className="mb-2 font-semibold leading-5">A future Application conceptor and developper</h6>
                     <p className="text-sm text-gray-900">
-                        Baseball ipsum dolor sit amet cellar rubber win hack tossed.
-                        Slugging catcher slide bench league, left fielder nubber.
+                        I will at least by September complete the second part of my training which will lead to a diploma in Application Developer Designer,
+                        I'll be more able to understand design problems and the importance of well-thought-out code
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
@@ -91,11 +92,11 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">A RGBDR background</h6>
+                    <h6 className="mb-2 font-semibold leading-5">An accomplished knowledge of several languages</h6>
                     <p className="text-sm text-gray-900">
-                        We meet at one of those defining moments - a moment when our nation
-                        is at war, our economy is in turmoil, and the American promise has
-                        been threatened once more.
+                        I have an advanced understanding of a few languages, but let’s be honest, I am very comfortable with SQL, Java, PHP,
+                        Dart (especially Flutter) and React (with the NextJS overlay).
+                        I also fell in love with GraphQL, which I am patiently learning
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
@@ -114,11 +115,10 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">A solid SEO knowledge</h6>
+                    <h6 className="mb-2 font-semibold leading-5">WordPress and WooCommerce</h6>
                     <p className="text-sm text-gray-900">
-                        Strategic high-level 30,000 ft view. Drill down re-inventing the
-                        wheel at the end of the day but curate imagineer, or to be inspired
-                        is to become creative.
+                        These are the two technologies that have led me to go much further
+                        in computer development, I think over time they have become very familiar to me.
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
@@ -137,11 +137,10 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">A google SEA certificate</h6>
+                    <h6 className="mb-2 font-semibold leading-5">A 360-degree understanding of web development needs</h6>
                     <p className="text-sm text-gray-900">
-                        Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et.
-                        Vestibulum placerat purus ut nibh aliquam fringilla. Aenean et
-                        tortor diam, id tempor elit.
+                        I’ve had the opportunity to understand all the stakes of a website, beyond its simple design.
+                        I have passed Google’s certificates in SEA and digital marketing, as well as a MOOC from the CNIL on the GDPR
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
@@ -160,11 +159,10 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">An online google marketing certificate</h6>
+                    <h6 className="mb-2 font-semibold leading-5">A technology enthusiast</h6>
                     <p className="text-sm text-gray-900">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-                        perspiciatis unde omnis.
+                        My devouring passion for technological issues leads me to be constantly vigilant and to be
+                        constantly aware of the latest trends and developments in development in particular
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
@@ -183,22 +181,22 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">Multiple ERP experiences</h6>
+                    <h6 className="mb-2 font-semibold leading-5">An ease of integration and a team spirit</h6>
                     <p className="text-sm text-gray-900">
-                        Flatland! Hypatia. Galaxies Orion's sword globular star cluster?
-                        Light years quasar as a patch of light gathered by gravity Vangelis
-                        radio telescope.
+                        I am fully aware of the collaborative spirit that covers the developer profession,
+                        I have, through my experiences, developed a real ability to integrate and merge into existing teams
                     </p>
                 </div>
             </div>
             <div className="text-center">
                 <a
-                    href="/"
+                    href="/hery"
                     className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                 >
                     Learn more
                 </a>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
