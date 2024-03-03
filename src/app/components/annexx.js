@@ -1,6 +1,6 @@
 export const Annexx = () => {
     return (
-        <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
                 <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
                     <div className="max-w-xl mb-6">
@@ -8,9 +8,9 @@ export const Annexx = () => {
                             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-red-500 rounded-full">Application Annexx</p>
                         </div>
                         <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6 shine-effect">
-                            The mobile app
+                            The mobile app that
                             <br className="hidden md:block" />
-                            that makes self-storage{' '}
+                            makes self-storage{' '}
                             <span className="inline-block text-deep-purple-accent-400">easy</span>
                         </h2>
                         <p className="text-white text-base md:text-lg">A cross-platform application developed using Flutter that revolutionized the self-storage customer experience</p>
