@@ -6,6 +6,8 @@ import { SuperData } from "../components/super_data";
 import Footer from "../components/footer";
 import { Lgae } from "../components/lgae";
 import { Portofolio } from "../components/portofolio";
+import { IntroAngular } from "../components/introAngular";
+
 
 
 
@@ -16,6 +18,7 @@ export default function Home() {
 
             <Annexx></Annexx>
             <Portofolio></Portofolio>
+            <IntroAngular></IntroAngular>
             <SuperData></SuperData>
             <div style={{ marginTop: '100px' }}></div>
             <Lgae></Lgae>
