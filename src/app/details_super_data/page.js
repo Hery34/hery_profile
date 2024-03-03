@@ -33,7 +33,7 @@ export default function DetailSuperdata() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            From July 2024 to August 2024
+                            From July 2023 to August 2023
                         </p>
                     </div>
                     <div className="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r">

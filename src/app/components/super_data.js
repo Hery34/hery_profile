@@ -9,7 +9,7 @@ export const SuperData = () => {
                                 Superdata.fr
                             </p>
                         </div>
-                        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none">
+                        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none shine-effect">
                             An interactive online
                             <br className="hidden md:block" />
                             quote tool optimized{' '}
@@ -34,7 +34,7 @@ export const SuperData = () => {
                         <a
                             href="/details_super_data"
                             aria-label=""
-                            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                            className="inline-flex items-center font-semibold transition-colors duration-200 text-rose-300 hover:text-rose-900"
                         >
                             Learn more
                         </a>

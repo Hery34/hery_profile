@@ -13,9 +13,9 @@ const socials = [
     },
     {
         icon: <Mail size={20} />,
-        href: "mailto:hery.rakotomanana@etik.com",
+        href: "mailto:me@hery.website",
         label: "Email",
-        handle: "hery.rakotomanana@etik.com",
+        handle: "me@hery.website",
     },
     {
         icon: <Github size={20} />,

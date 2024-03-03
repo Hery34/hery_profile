@@ -108,6 +108,24 @@
   animation: title 2s infinite;
 }
 
+.shine-effect {
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #bdc3c7;
+  }
+
+  50% {
+    color: #ecf0f1;
+  }
+
+  100% {
+    color: #bdc3c7;
+  }
+
+}
 
 
 

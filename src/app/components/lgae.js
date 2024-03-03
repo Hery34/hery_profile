@@ -8,7 +8,7 @@ export const Lgae = () => {
                             legrenieraepices.com
                         </p>
                     </div>
-                    <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight  text-black sm:text-4xl md:mx-auto">
+                    <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight  text-black sm:text-4xl md:mx-auto shine-effect">
                         <span className="relative inline-block">
                             <svg
                                 viewBox="0 0 52 24"
@@ -61,7 +61,7 @@ export const Lgae = () => {
                     <a
                         href="/lgae_details"
                         aria-label=""
-                        className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                        className="inline-flex items-center font-semibold transition-colors duration-200 text-yellow-700 hover:text-yellow-900"
                     >
                         Learn more
                     </a>

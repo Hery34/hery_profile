@@ -7,7 +7,7 @@ export const Annexx = () => {
                         <div>
                             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider uppercase bg-teal-accent-400 text-red-500 rounded-full">Application Annexx</p>
                         </div>
-                        <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6">
+                        <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6 shine-effect">
                             The mobile app
                             <br className="hidden md:block" />
                             that makes self-storage{' '}
@@ -36,7 +36,7 @@ export const Annexx = () => {
             <a
                 href="/details_annexx"
                 aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="inline-flex items-center font-semibold transition-colors duration-200  text-red-500 hover:text-red-900"
             >
                 Learn more
             </a>

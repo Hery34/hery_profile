@@ -4,11 +4,11 @@ export const Portofolio = () => {
             <div className="mx-auto sm:text-center lg:max-w-2xl">
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                     <div>
-                        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-gray-200 last:uppercase rounded-full bg-teal-accent-400">
+                        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-blue-200 last:uppercase rounded-full bg-teal-accent-400">
                             portofolio
                         </p>
                     </div>
-                    <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight  text-black sm:text-4xl md:mx-auto">
+                    <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight  text-black sm:text-4xl md:mx-auto shine-effect">
                         <span className="relative inline-block">
                             <svg
                                 viewBox="0 0 52 24"
@@ -62,7 +62,7 @@ export const Portofolio = () => {
                     <a
                         href="/portofolio_detail"
                         aria-label=""
-                        className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                        className="inline-flex items-center font-semibold transition-colors duration-200 text-blue-200 hover:text-blue-800"
                     >
                         Learn more
                     </a>
