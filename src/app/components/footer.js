@@ -10,6 +10,11 @@ export default function Footer() {
                         </a>
                     </li>
                     <li class="my-2">
+                        <a class="text-white hover:text-gray-400 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="https://pub.dev/publishers/hery.website/packages">
+                            Pub.dev
+                        </a>
+                    </li>
+                    <li class="my-2">
                         <a class="text-white hover:text-gray-400 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="https://www.linkedin.com/in/hery-rakotomanana-andrianjohany-/">
                             LinkedIn
                         </a>
