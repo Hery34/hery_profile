@@ -55,9 +55,9 @@ export default function AboutMe() {
             </div>
             <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
+                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-600">
                         <svg
-                            className="w-10 h-10 text-deep-purple-accent-400"
+                            className="w-10 h-10 text-white"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                         >
@@ -70,16 +70,16 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">A future Application conceptor and developper</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">A future Application conceptor and developper</h6>
                     <p className="text-sm text-gray-900">
                         I will at least by September complete the second part of my training which will lead to a diploma in Application Developer Designer,
                         I'll be more able to understand design problems and the importance of well-thought-out code
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
+                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-600">
                         <svg
-                            className="w-10 h-10 text-deep-purple-accent-400"
+                            className="w-10 h-10 text-white"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                         >
@@ -92,7 +92,7 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">An accomplished knowledge of several languages</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">An accomplished knowledge of several languages</h6>
                     <p className="text-sm text-gray-900">
                         I have an advanced understanding of a few languages, but let’s be honest, I am very comfortable with SQL, Java, PHP,
                         Dart (especially Flutter) and React (with the NextJS overlay).
@@ -100,9 +100,9 @@ export default function AboutMe() {
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
+                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-600">
                         <svg
-                            className="w-10 h-10 text-deep-purple-accent-400"
+                            className="w-10 h-10 text-white"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                         >
@@ -115,16 +115,16 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">WordPress and WooCommerce</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">WordPress and WooCommerce</h6>
                     <p className="text-sm text-gray-900">
                         These are the two technologies that have led me to go much further
                         in computer development, I think over time they have become very familiar to me.
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
+                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-600">
                         <svg
-                            className="w-10 h-10 text-deep-purple-accent-400"
+                            className="w-10 h-10 text-white"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                         >
@@ -137,16 +137,16 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">A 360-degree understanding of web development needs</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">A 360-degree understanding of web development needs</h6>
                     <p className="text-sm text-gray-900">
                         I’ve had the opportunity to understand all the stakes of a website, beyond its simple design.
                         I have passed Google’s certificates in SEA and digital marketing, as well as a MOOC from the CNIL on the GDPR
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
+                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-600">
                         <svg
-                            className="w-10 h-10 text-deep-purple-accent-400"
+                            className="w-10 h-10 text-white"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                         >
@@ -159,16 +159,16 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">A technology enthusiast</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">A technology enthusiast</h6>
                     <p className="text-sm text-gray-900">
                         My devouring passion for technological issues leads me to be constantly vigilant and to be
                         constantly aware of the latest trends and developments in development in particular
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
+                    <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-600">
                         <svg
-                            className="w-10 h-10 text-deep-purple-accent-400"
+                            className="w-10 h-10 text-white"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                         >
@@ -181,7 +181,7 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5">An ease of integration and a team spirit</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">An ease of integration and a team spirit</h6>
                     <p className="text-sm text-gray-900">
                         I am fully aware of the collaborative spirit that covers the developer profession,
                         I have, through my experiences, developed a real ability to integrate and merge into existing teams

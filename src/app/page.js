@@ -8,6 +8,7 @@ const navigation = [
   { name: "Packages", href: "/packages" },
   { name: "Contact", href: "/contact" },
   { name: "About me", href: "/aboutMe" },
+  { name: "CV", href: "/cv" }
 ];
 
 export default function Home() {
