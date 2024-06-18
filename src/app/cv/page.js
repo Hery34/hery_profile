@@ -148,7 +148,7 @@ export default function Cv() {
                         </div>
                         <div>
                             <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section5')}>
-                                web application developer intern
+                                Web application developer intern
                                 <span className="float-right">{openSections['section5'] ? '-' : '+'}</span>
                             </button>
                             {openSections['section5'] && (
@@ -326,7 +326,7 @@ export default function Cv() {
                             {openSections['section17'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
-                                        <li>Visual Code Studio, Android Studio, XCode, IntelliJ IDEA, Eclipse </li>
+                                        <li>Visual Studio Code, Android Studio, XCode, IntelliJ IDEA, Eclipse </li>
                                     </ul>
                                 </div>
                             )}
