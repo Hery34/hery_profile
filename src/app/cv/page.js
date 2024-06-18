@@ -340,7 +340,7 @@ export default function Cv() {
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Figma, Draw.io, Looping, Agile, Scrum, Kanban </li>
-                                        <li>French - native, Malagasy - native, English - good lever  </li>
+                                        <li>French - native, Malagasy - native, Strong English Language Skills  </li>
                                     </ul>
                                 </div>
                             )}
