@@ -53,7 +53,7 @@ export default function Cv() {
             <div className="bg-white rounded-lg shadow-xl p-8 max-w-4xl w-full relative" ref={cvRef}>
                 <header className="flex justify-between items-center mb-6">
                     <div className="text-left">
-                        <h1 className="text-4xl font-bold mb-2">Hery Rakotomanana Andrianjohany</h1>
+                        <h1 className="text-4xl font-bold mb-2 text-black">Hery Rakotomanana Andrianjohany</h1>
                         <p className="text-gray-600 font-bold mb-2">Lead Developer</p>
                         <a href="mailto:me@hery.website" >
                             <p className="text-gray-600">me@hery.website</p>
@@ -67,17 +67,17 @@ export default function Cv() {
                 </header>
 
                 <section className="mt-8">
-                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Profile</h2>
+                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Profile</h2>
                     <p className="text-gray-700">
                         I am passionate about application development, with expertise in mobile development using Flutter, Java with the Spring Framework, and React with the Next.js Framework. I am capable of managing end-to-end projects, paying close attention to detail and code efficiency.
                     </p>
                 </section>
 
                 <section className="mt-8">
-                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Work experience</h2>
+                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Work experience</h2>
                     <div className="space-y-4">
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section1')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section1')}>
                                 Work-study mobile developer
                                 <span className="float-right">{openSections['section1'] ? '-' : '+'}</span>
                             </button>
@@ -89,13 +89,13 @@ export default function Cv() {
                                         <li>Fixing compilations errors, recompiling an internally developed application using Swift,and integrating it with the Apple Business Store</li>
                                         <li>Publishing internally developed applications on the Apple Business Store</li>
                                         <li>Development from scratch of version 2.0.0 of the Annexx application using Flutter, followed by uploading it to the App Store and Play Store</li>
-                                        <li>Introducing new features to the Annexx App : biometric identification, private gallery....</li>
+                                        <li>Introducing new features to the Annexx App : biometric authentication, private gallery....</li>
                                     </ul>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section2')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section2')}>
                                 Lead Developper student
                                 <span className="float-right">{openSections['section2'] ? '-' : '+'}</span>
                             </button>
@@ -112,7 +112,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section3')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section3')}>
                                 Founding manager
                                 <span className="float-right">{openSections['section3'] ? '-' : '+'}</span>
                             </button>
@@ -128,7 +128,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section4')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section4')}>
                                 Web and mobile web development student
                                 <span className="float-right">{openSections['section4'] ? '-' : '+'}</span>
                             </button>
@@ -147,7 +147,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section5')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section5')}>
                                 web application developer intern
                                 <span className="float-right">{openSections['section5'] ? '-' : '+'}</span>
                             </button>
@@ -167,7 +167,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section6')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section6')}>
                                 Logistic Manager
                                 <span className="float-right">{openSections['section6'] ? '-' : '+'}</span>
                             </button>
@@ -187,10 +187,10 @@ export default function Cv() {
                 </section>
 
                 <section className="mt-8">
-                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Diplomas and certifications</h2>
+                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Diplomas and certifications</h2>
                     <div className="space-y-4">
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section7')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section7')}>
                                 Lead Developer Certification
                                 <span className="float-right">{openSections['section7'] ? '-' : '+'}</span>
                             </button>
@@ -201,7 +201,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section8')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section8')}>
                                 Front-end Web and mobile web development Certification
                                 <span className="float-right">{openSections['section8'] ? '-' : '+'}</span>
                             </button>
@@ -212,7 +212,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section9')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section9')}>
                                 Google adds display Certification
                                 <span className="float-right">{openSections['section9'] ? '-' : '+'}</span>
                             </button>
@@ -223,7 +223,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section10')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section10')}>
                                 Google numeric marketing Certification
                                 <span className="float-right">{openSections['section10'] ? '-' : '+'}</span>
                             </button>
@@ -234,7 +234,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section11')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section11')}>
                                 RGPDR Certification
                                 <span className="float-right">{openSections['section11'] ? '-' : '+'}</span>
                             </button>
@@ -245,7 +245,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section12')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section12')}>
                                 License
                                 Management Science
                                 <span className="float-right">{openSections['section12'] ? '-' : '+'}</span>
@@ -261,10 +261,10 @@ export default function Cv() {
 
 
                 <section className="mt-8">
-                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Skills</h2>
+                    <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Skills</h2>
                     <div className="space-y-4">
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section13')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section13')}>
                                 Front-end
                                 <span className="float-right">{openSections['section13'] ? '-' : '+'}</span>
                             </button>
@@ -278,7 +278,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section14')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section14')}>
                                 Back-end
                                 <span className="float-right">{openSections['section14'] ? '-' : '+'}</span>
                             </button>
@@ -292,7 +292,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section15')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section15')}>
                                 Database
                                 <span className="float-right">{openSections['section15'] ? '-' : '+'}</span>
                             </button>
@@ -306,7 +306,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section16')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section16')}>
                                 DevOps
                                 <span className="float-right">{openSections['section16'] ? '-' : '+'}</span>
                             </button>
@@ -319,7 +319,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section17')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section17')}>
                                 IDE
                                 <span className="float-right">{openSections['section17'] ? '-' : '+'}</span>
                             </button>
@@ -332,7 +332,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left" onClick={() => toggleSection('section18')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section18')}>
                                 Tools, Methodology and usual languages
                                 <span className="float-right">{openSections['section18'] ? '-' : '+'}</span>
                             </button>

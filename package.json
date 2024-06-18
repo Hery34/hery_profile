@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "braces": ">=3.0.3",
     "framer-motion": "^11.0.5",
     "html2pdf.js": "^0.10.1",
     "lucide-react": "^0.336.0",
