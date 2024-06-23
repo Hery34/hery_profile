@@ -7,6 +7,7 @@ import Footer from "../components/footer";
 import { Lgae } from "../components/lgae";
 import { Portofolio } from "../components/portofolio";
 import { IntroAngular } from "../components/introAngular";
+import { FrenchPopulation } from "../components/frenchPopulation";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
             <Navigation />
 
             <Annexx></Annexx>
+            <FrenchPopulation></FrenchPopulation>
             <Portofolio></Portofolio>
             <IntroAngular></IntroAngular>
             <SuperData></SuperData>
