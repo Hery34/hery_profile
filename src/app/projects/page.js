@@ -8,6 +8,7 @@ import { Lgae } from "../components/lgae";
 import { Portofolio } from "../components/portofolio";
 import { IntroAngular } from "../components/introAngular";
 import { FrenchPopulation } from "../components/frenchPopulation";
+import { Stally } from "../components/stally";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
             <Navigation />
 
             <Annexx></Annexx>
+            <Stally></Stally>
             <FrenchPopulation></FrenchPopulation>
             <Portofolio></Portofolio>
             <IntroAngular></IntroAngular>
