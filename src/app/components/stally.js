@@ -26,7 +26,7 @@ export const Stally = () => {
                     <div className="flex items-center space-x-4">
                         <div className="flex items-center">
                             <a
-                                href="https://gnpnbivapdxihsupafcm.supabase.co/storage/v1/object/public/portofolio_bucket/Stally.apk?t=2024-06-24T10%3A46%3A45.220Z"
+                                href="https://gnpnbivapdxihsupafcm.supabase.co/storage/v1/object/public/portofolio_bucket/Stally_v_1_0_0.apk?t=2024-07-22T15%3A59%3A19.354Z"
                                 download="Stally.apk"
                                 target="_blank"
                                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -46,7 +46,7 @@ export const Stally = () => {
                 <div >
                     <video
                         className="w-full h-56 sm:h-96 rounded shadow-lg object-contain bg-black"
-                        src="https://gnpnbivapdxihsupafcm.supabase.co/storage/v1/object/public/portofolio_bucket/stally_demo1.mp4?t=2024-06-24T08%3A41%3A35.020Z"
+                        src="https://gnpnbivapdxihsupafcm.supabase.co/storage/v1/object/public/portofolio_bucket/stally_demo2_compressed2.mp4?t=2024-07-22T15%3A59%3A44.305Z"
                         autoPlay
                         muted
                         loop
