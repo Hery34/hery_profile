@@ -69,7 +69,7 @@ export default function Cv() {
                 <section className="mt-8">
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Profile</h2>
                     <p className="text-gray-700">
-                        I am passionate about application development, with expertise in mobile development using Flutter, Java with the Spring Framework, and React with the Next.js Framework. I am capable of managing end-to-end projects, paying close attention to detail and code efficiency.
+                        I'm a dedicated mobile application developer with a strong foundation in Flutter, Java (Spring Framework), React (Next.js) and SQL (Mysql, Sqlite, PostgreSQL). I'm skilled in managing projects from inception to completion, ensuring meticulous attention to detail and optimized code. My approach is rooted in SOLID principles, clean coding practices, and effective design patterns, enabling me to deliver robust and maintainable solutions.
                     </p>
                 </section>
 
@@ -78,12 +78,29 @@ export default function Cv() {
                     <div className="space-y-4">
                         <div>
                             <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section1')}>
-                                Work-study mobile developer
+                                Mobile App Designer-Developer
                                 <span className="float-right">{openSections['section1'] ? '-' : '+'}</span>
                             </button>
                             {openSections['section1'] && (
                                 <div className="mt-2 text-gray-700">
-                                    <p className="text-red-500">Annexx SA - Montpellier, Sept 2023 - now</p>
+                                    <p className="text-red-500">Annexx SA - Montpellier, Oct 2024 - now</p>
+                                    <ul className="list-disc list-inside text-gray-600">
+                                        <li>Led the development and maintenance of a suite of mobile applications, resulting in [quantifiable improvement, e.g., increased user engagement, reduced support costs]</li>
+                                        <li>Implemented a robust MDM solution, streamlining device management and improving security</li>
+                                        <li>Successfully launched a new mobile application to support [specific business goal, e.g., field service operations]</li>
+                                        <li>Delivered high-quality mobile applications on time and within budget</li>
+                                    </ul>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section2')}>
+                                Work-study mobile developer
+                                <span className="float-right">{openSections['section2'] ? '-' : '+'}</span>
+                            </button>
+                            {openSections['section2'] && (
+                                <div className="mt-2 text-gray-700">
+                                    <p className="text-red-500">Annexx SA - Montpellier, Sept 2023 - Sept 2024</p>
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Fixing compilation errors, updating the previous Android Annexx application, and submitting it to the Play Store</li>
                                         <li>Fixing compilations errors, recompiling an internally developed application using Swift,and integrating it with the Apple Business Store</li>
@@ -95,11 +112,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section2')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section3')}>
                                 Lead Developper student
-                                <span className="float-right">{openSections['section2'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section3'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section2'] && (
+                            {openSections['section3'] && (
                                 <div className="mt-2  text-gray-700">
                                     <p className="text-red-900">Doranco - Sup des Tech créatives - Paris, Sept 2023 - now</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -112,11 +129,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section3')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section4')}>
                                 Founding manager
-                                <span className="float-right">{openSections['section3'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section4'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section3'] && (
+                            {openSections['section4'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-yellow-900">Le Grenier à épices - Montpellier, Apr 2021 - Dec 2023</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -128,11 +145,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section4')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section5')}>
                                 Web and mobile web development student
-                                <span className="float-right">{openSections['section4'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section5'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section4'] && (
+                            {openSections['section5'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-blue-600">Beweb Fondespierre Ressources Humaines - Montpellier, Dec 2022 - Oct 2023</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -147,11 +164,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section5')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section6')}>
                                 Web application developer intern
-                                <span className="float-right">{openSections['section5'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section6'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section5'] && (
+                            {openSections['section6'] && (
                                 <div className="mt-2  text-gray-700">
                                     <p className="text-pink-600">PP Limted - Paris, Dec 2022 - Oct 2023</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -167,11 +184,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section6')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section7')}>
                                 Logistic Manager
-                                <span className="float-right">{openSections['section6'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section7'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section6'] && (
+                            {openSections['section7'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-green-700">Soredim SA - Madagascar, Feb 2005 - Mar 2015</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -190,67 +207,67 @@ export default function Cv() {
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Diplomas and certifications</h2>
                     <div className="space-y-4">
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section7')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section8')}>
                                 Lead Developer Certification
-                                <span className="float-right">{openSections['section7'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section8'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section7'] && (
+                            {openSections['section8'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Doranco - Sup des Tech créatives - Paris, still running </p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section8')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section9')}>
                                 Front-end Web and mobile web development Certification
-                                <span className="float-right">{openSections['section8'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section9'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section8'] && (
+                            {openSections['section9'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Beweb Fondespierre Ressources Humaines - Montpellier, Oct 2023 </p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section9')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section10')}>
                                 Google adds display Certification
-                                <span className="float-right">{openSections['section9'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section10'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section9'] && (
+                            {openSections['section10'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Google programm, Sept 2022</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section10')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section11')}>
                                 Google numeric marketing Certification
-                                <span className="float-right">{openSections['section10'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section11'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section10'] && (
+                            {openSections['section11'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Google programm, Jun 2022</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section11')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section12')}>
                                 RGPDR Certification
-                                <span className="float-right">{openSections['section11'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section12'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section11'] && (
+                            {openSections['section12'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">CNIL MOOC, Dec 2020</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section12')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section13')}>
                                 License
                                 Management Science
-                                <span className="float-right">{openSections['section12'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section13'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section12'] && (
+                            {openSections['section13'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Antananarivo University Madagascar, Feb 2007</p>
                                 </div>
@@ -264,11 +281,11 @@ export default function Cv() {
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Skills</h2>
                     <div className="space-y-4">
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section13')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section14')}>
                                 Front-end
-                                <span className="float-right">{openSections['section13'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section14'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section13'] && (
+                            {openSections['section14'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Languages : HTML, CSS, JavaScript, Dart</li>
@@ -278,11 +295,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section14')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section15')}>
                                 Back-end
-                                <span className="float-right">{openSections['section14'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section15'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section14'] && (
+                            {openSections['section15'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Languages : Java, PHP, NodeJs</li>
@@ -292,11 +309,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section15')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section16')}>
                                 Database
-                                <span className="float-right">{openSections['section15'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section16'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section15'] && (
+                            {openSections['section16'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Languages : SQL, PostgreSQL</li>
@@ -306,11 +323,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section16')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section17')}>
                                 DevOps
-                                <span className="float-right">{openSections['section16'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section17'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section16'] && (
+                            {openSections['section17'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Tools : Github, Gitlab, Docker, Vercel</li>
@@ -319,11 +336,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section17')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section18')}>
                                 IDE
-                                <span className="float-right">{openSections['section17'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section18'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section17'] && (
+                            {openSections['section18'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Visual Studio Code, Android Studio, XCode, IntelliJ IDEA, Eclipse </li>
@@ -332,11 +349,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section18')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section19')}>
                                 Tools, Methodology and usual languages
-                                <span className="float-right">{openSections['section18'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section19'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section18'] && (
+                            {openSections['section19'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Figma, Draw.io, Looping, Agile, Scrum, Kanban </li>
