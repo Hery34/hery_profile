@@ -70,10 +70,11 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">A future Application conceptor and developper</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">Application Designer and Developer</h6>
                     <p className="text-sm text-gray-900">
-                        I will at least by September complete the second part of my training which will lead to a diploma in Application Developer Designer,
-                        I'll be more able to understand design problems and the importance of well-thought-out code
+                        As a certified Application Designer and Developer, I bring proven expertise in both conceptual design and practical implementation.
+                        My professional diploma validates my understanding of design principles and their crucial role in development, ensuring I deliver well-structured,
+                        maintainable code that meets both current needs and future scalability.
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
@@ -159,10 +160,10 @@ export default function AboutMe() {
                             />
                         </svg>
                     </div>
-                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">A technology enthusiast</h6>
+                    <h6 className="mb-2 font-semibold leading-5 text-gray-400">Development philosophy</h6>
                     <p className="text-sm text-gray-900">
-                        My devouring passion for technological issues leads me to be constantly vigilant and to be
-                        constantly aware of the latest trends and developments in development in particular
+                        My development approach strictly follows SOLID principles, design patterns, and clean code practices.
+                        These fundamental guidelines drive my work, ensuring maintainable and scalable solutions that stand the test of time.
                     </p>
                 </div>
                 <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
