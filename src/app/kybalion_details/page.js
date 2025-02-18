@@ -103,7 +103,7 @@ export default function KybalionDetails() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            Authentication, Authorization, Member management by accredition level, statistical analysis, Library mangement, Event registration etc.
+                            Pwa, Authentication, Authorization, Member management by accredition level, statistical analysis, Library mangement, Event registration etc.
                         </p>
                     </div>
                 </div>

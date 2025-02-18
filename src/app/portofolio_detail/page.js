@@ -102,7 +102,7 @@ export default function DetailsPortofolio() {
                             </div>
                         </div>
                         <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                            Full responsive
+                            Full responsive, PWA
                         </p>
                     </div>
                 </div>
