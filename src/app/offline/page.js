@@ -6,3 +6,5 @@ export default function Offline() {
       </div>
     );
   }
+
+  export const dynamic = 'force-static';

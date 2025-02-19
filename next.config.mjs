@@ -6,6 +6,7 @@ const withPWAConfig = withPWA({
     register: true,
     skipWaiting: true,
     disable: process.env.NODE_ENV === 'development',
+
       runtimeCaching: [
         {
           urlPattern: /^https:\/\/fonts\./,
@@ -85,6 +86,28 @@ const withPWAConfig = withPWA({
             },
             networkTimeoutSeconds: 10
           }
+        },
+        {
+          urlPattern: /^https?:\/\/[^/]+\/(?!api\/).*/,  // Match les URLs de pages, excluant /api/
+          handler: 'NetworkFirst',
+          options: {
+            cacheName: 'pages-cache',
+            expiration: {
+              maxEntries: 32,
+              maxAgeSeconds: 24 * 60 * 60 // 24 heures
+            },
+            networkTimeoutSeconds: 10,
+            plugins: [
+              {
+                handlerDidError: async ({ request }) => {
+                  if (request.destination === 'document') {
+                    return Response.redirect('/offline', 302);
+                  }
+                  return Response.error();
+                }
+              },
+            ],
+          },
         },
         {
           urlPattern: /.*/i,

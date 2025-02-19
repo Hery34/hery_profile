@@ -1,8 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import ConnectionManager from "./components/connection_manager";
-import ConnectionStatus from "./components/connection_status";
-
+import ServiceWorkerHandler from "./components/service_worker_handler";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -24,8 +22,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#000000" />
       </head>
       <body className={inter.className}>
-        <ConnectionManager></ConnectionManager>
-        <ConnectionStatus></ConnectionStatus>
+        <ServiceWorkerHandler />
         {children}</body>
     </html>
   );
