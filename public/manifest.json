@@ -1,6 +1,7 @@
 {
-    "name": "hery",
+    "name": "hery_portfolio",
     "short_name": "hery",
+    "description": "My virtual portfolio to showcase my projects in PWA version",
     "icons": [
         {
             "src": "/logo.png", 
@@ -15,6 +16,6 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#000000",
+    "background_color": "#ffffff",
     "theme_color": "#000000"
 }
