@@ -39,7 +39,7 @@ export const Navigation = () => {
                         <ArrowLeft className="w-6 h-6" />
                     </Link>
 
-                    {/* Menu hamburger pour mobile */}
+                    {/* Hamburger Menu for mobile mode */}
                     <button
                         className="lg:hidden text-zinc-400 hover:text-zinc-100"
                         onClick={toggleMenu}
@@ -51,7 +51,7 @@ export const Navigation = () => {
                         )}
                     </button>
 
-                    {/* Menu desktop */}
+                    {/* Desktop Menu */}
                     <nav className="hidden lg:flex justify-between gap-8">
                         <Link
                             href="/projects"
@@ -86,7 +86,7 @@ export const Navigation = () => {
                     </nav>
                 </div>
 
-                {/* Menu mobile */}
+                {/* Mobile Menu */}
                 <div
                     className={`lg:hidden ${
                         isMenuOpen ? "block" : "hidden"
