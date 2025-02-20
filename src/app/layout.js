@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ServiceWorkerHandler from "./components/service_worker_handler";
 const inter = Inter({ subsets: ["latin"] });
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   manifest: '/manifest.json',
@@ -23,7 +24,9 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <ServiceWorkerHandler />
-        {children}</body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
