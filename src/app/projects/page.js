@@ -12,7 +12,7 @@ import { Stally } from "../components/stally";
 import { Kybalion } from "../components/kybalion";
 import { Mmb } from "../components/mmb";
 import { Ovl } from "../components/ovl";
-
+import { Access } from "../components/access";
 export default function Home() {
     return (
         <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
@@ -21,6 +21,7 @@ export default function Home() {
             <Kybalion></Kybalion>
             <Ovl></Ovl>
             <Annexx></Annexx>
+            <Access></Access>
             <Stally></Stally>
             <FrenchPopulation></FrenchPopulation>
             <Portofolio></Portofolio>
