@@ -275,7 +275,7 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section13')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section14')}>
                                 RGPDR Certification
                                 <span className="float-right">{openSections['section14'] ? '-' : '+'}</span>
                             </button>
