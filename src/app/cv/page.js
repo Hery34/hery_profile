@@ -313,7 +313,7 @@ export default function Cv() {
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Languages : HTML, CSS, JavaScript, Dart</li>
-                                        <li>Libraries, Frameworks and SDKs : React, Angular, Next JS, Tailwind, Bootstrap, Twig, Thymeleaf, Flutter...</li>
+                                        <li>Libraries, Frameworks and SDKs : React, Angular, Next JS, Tailwind, Bootstrap, Twig, Thymeleaf, Flutter, Next-PWA...</li>
                                     </ul>
                                 </div>
                             )}
@@ -367,7 +367,7 @@ export default function Cv() {
                             {openSections['section20'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
-                                        <li>Visual Studio Code, Android Studio, XCode, IntelliJ IDEA, Eclipse </li>
+                                        <li>Visual Studio Code, Android Studio, XCode, IntelliJ IDEA, Eclipse, Cursor </li>
                                     </ul>
                                 </div>
                             )}
