@@ -12,7 +12,7 @@ import { Stally } from "../components/stally";
 import { Kybalion } from "../components/kybalion";
 import { Mmb } from "../components/mmb";
 import { MonApplication } from "../components/monApplication";
-import { ExpertIa } from "../components/expertia";
+import { ExpertIa } from "../components/expertIa";
 import { Ovl } from "../components/ovl";
 import { Access } from "../components/access";
 export default function Home() {
