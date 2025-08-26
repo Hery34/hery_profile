@@ -89,6 +89,7 @@ export default function Cv() {
                                         <li>Lead the development and maintenance of a suite of mobile applications, resulting in [quantifiable improvement, e.g., increased user engagement, reduced support costs]</li>
                                         <li>Implemented a robust MDM solution, streamlining device management and improving security</li>
                                         <li>Successfully launched a new mobile application to support [specific business goal, e.g., field service operations]</li>
+                                        <li>Developed a full-stack autonomous delivery solution featuring a NextJS front-end with PWA capabilities, Supabase backend, and n8n workflow automation, integrated with AI-powered label decryption tools</li>
                                         <li>Setup and management of the company's Apple Business Manager account</li>
                                         <li>Delivered high-quality mobile applications on time and within budget</li>
                                     </ul>
