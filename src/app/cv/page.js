@@ -61,7 +61,7 @@ export default function Cv() {
                     </div>
                     <div className="flex items-center">
                         <div className="w-32 h-32 bg-gray-300 rounded-full overflow-hidden">
-                            <img src="/hery.png" alt="Hery's photo" className="w-full h-full object-cover" />
+                            <img src="/hery_black_white.png" alt="Hery's photo" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </header>
@@ -86,12 +86,14 @@ export default function Cv() {
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-red-500">Annexx SA - Montpellier, Oct 2024 - now</p>
                                     <ul className="list-disc list-inside text-gray-600">
-                                        <li>Lead the development and maintenance of a suite of mobile applications, resulting in [quantifiable improvement, e.g., increased user engagement, reduced support costs]</li>
-                                        <li>Implemented a robust MDM solution, streamlining device management and improving security</li>
-                                        <li>Successfully launched a new mobile application to support [specific business goal, e.g., field service operations]</li>
-                                        <li>Developed a full-stack autonomous delivery solution featuring a NextJS front-end with PWA capabilities, Supabase backend, and n8n workflow automation, integrated with AI-powered label decryption tools</li>
-                                        <li>Setup and management of the company's Apple Business Manager account</li>
-                                        <li>Delivered high-quality mobile applications on time and within budget</li>
+                                        <li>Lead the development and maintenance of a suite of mobile applications, resulting in [quantifiable improvement, e.g., increased user engagement, reduced support costs], consistently delivering new features and improvements</li>
+                                        <li>Conceived and developed a full-stack internal staff app (Flutter, Supabase, n8n), boosting onsite agent productivity and implementing tailored site monitoring dashboards.</li>
+                                        <li>Built and deployed multiple custom internal apps to address specific business needs, distributed via Apple Business Manager and private Android links.</li>
+                                        <li>Deployed and managed Eset Protect MDM across the company's entire mobile fleet (Android & iOS), designing and applying security policies adapted to business requirements.</li>
+                                        <li>Set up and managed the Apple Business Manager account, integrating MDM, provisioning managed accounts tied to the company domain, onboarding Apple devices via App Configurator, and delivering Annexx’s overarching ABM device management strategy.</li>
+                                        <li>Developed a full-stack autonomous delivery solution featuring a NextJS front-end with PWA capabilities, Supabase backend, and n8n workflow automation, integrated with AI-powered label decryption toolsDesigned and developed a full-stack autonomous delivery solution: NextJS front-end with PWA layer, Supabase and n8n back-end, Google Vision API, and AI-powered labeling tools.Setup and management of the company's Apple Business Manager account</li>
+                                        <li>Led the implementation of automation solutions, including the deployment of AI agents and integration of AI into business processes. Established department-wide debugging and monitoring tools for web and mobile development.</li>
+                                        <li>Successfully delivered all projects on schedule and within budget, contributing to measurable business improvements such as increased productivity and operational efficiency.</li>
                                     </ul>
                                 </div>
                             )}
@@ -368,7 +370,7 @@ export default function Cv() {
                             {openSections['section20'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
-                                        <li>Visual Studio Code, Android Studio, XCode, IntelliJ IDEA, Eclipse, Cursor </li>
+                                        <li>Visual Studio Code, Android Studio, XCode, IntelliJ IDEA, Eclipse, Cursor, Claude Code</li>
                                     </ul>
                                 </div>
                             )}

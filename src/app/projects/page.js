@@ -15,10 +15,14 @@ import { MonApplication } from "../components/monApplication";
 import { ExpertIa } from "../components/expertIa";
 import { Ovl } from "../components/ovl";
 import { Access } from "../components/access";
+import { LivraisonV2 } from "../components/livraison_V2";
+import { LivraisonDashboard } from "../components/livraison_dashboard";
 export default function Home() {
     return (
         <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
             <Navigation />
+            <LivraisonV2></LivraisonV2>
+            <LivraisonDashboard></LivraisonDashboard>
             <ExpertIa></ExpertIa>
             <MonApplication></MonApplication>
             <Mmb></Mmb>
