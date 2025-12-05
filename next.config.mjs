@@ -126,6 +126,9 @@ const withPWAConfig = withPWA({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Configuration Turbopack pour Next.js 16
+  // next-pwa ajoute une config webpack, mais Turbopack fonctionne bien avec PWA
+  turbopack: {},
   async headers() {
     return [
       {
