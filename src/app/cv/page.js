@@ -35,7 +35,7 @@ export default function Cv() {
                 jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
             };
 
-            html2pdfModule.default().from(element).set(opt).save();
+            html2pdfModule.default.from(element).set(opt).save();
         }
     };
 
