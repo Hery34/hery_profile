@@ -48,21 +48,28 @@ export default function Cv() {
             margin: 1,
             filename: 'CV-Hery-Rakotomanana-Andrianjohany.pdf',
             image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2 },
+            html2canvas: { scale: 2, letterRendering: true },
             jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
         };
+
+        // Fix for missing spaces in html2canvas
+        const originalLetterSpacing = element.style.letterSpacing;
+        element.style.letterSpacing = "0.5px";
 
         try {
             const pdfGenerator = html2pdfModule();
             pdfGenerator.from(element).set(opt).save()
                 .then(() => {
+                    element.style.letterSpacing = originalLetterSpacing;
                     alert("Le PDF a été téléchargé avec succès !");
                 })
                 .catch(err => {
+                    element.style.letterSpacing = originalLetterSpacing;
                     console.error('Erreur lors de la sauvegarde du PDF:', err);
                     alert("Une erreur est survenue lors de la création du PDF.");
                 });
         } catch (error) {
+            element.style.letterSpacing = originalLetterSpacing;
             console.error('Erreur lors de la génération du PDF:', error);
             alert("Une erreur est survenue lors de la génération du PDF.");
         }
