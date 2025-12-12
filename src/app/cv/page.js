@@ -12,9 +12,17 @@ export default function Cv() {
     const [html2pdfModule, setHtml2pdfModule] = useState(null);
 
     useEffect(() => {
-        import('html2pdf.js').then(module => {
-            setHtml2pdfModule(module);
-        });
+        // Utiliser une fonction async pour charger html2pdf.js
+        const loadHtml2Pdf = async () => {
+            try {
+                const module = await import('html2pdf.js');
+                setHtml2pdfModule(() => module.default);
+            } catch (error) {
+                console.error('Erreur lors du chargement de html2pdf.js:', error);
+            }
+        };
+
+        loadHtml2Pdf();
     }, []);
 
     const toggleSection = (section) => {
@@ -25,17 +33,38 @@ export default function Cv() {
     };
 
     const handleDownloadPdf = () => {
-        if (html2pdfModule) {
-            const element = cvRef.current;
-            const opt = {
-                margin: 1,
-                filename: 'CV-Hery-Rakotomanana-Andrianjohany.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2 },
-                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-            };
+        if (!html2pdfModule) {
+            alert("Le module PDF n'est pas encore chargé. Veuillez réessayer dans quelques instants.");
+            return;
+        }
 
-            html2pdfModule.default.from(element).set(opt).save();
+        if (!cvRef.current) {
+            console.error('L\'élément CV n\'est pas disponible');
+            return;
+        }
+
+        const element = cvRef.current;
+        const opt = {
+            margin: 1,
+            filename: 'CV-Hery-Rakotomanana-Andrianjohany.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+        };
+
+        try {
+            const pdfGenerator = html2pdfModule();
+            pdfGenerator.from(element).set(opt).save()
+                .then(() => {
+                    alert("Le PDF a été téléchargé avec succès !");
+                })
+                .catch(err => {
+                    console.error('Erreur lors de la sauvegarde du PDF:', err);
+                    alert("Une erreur est survenue lors de la création du PDF.");
+                });
+        } catch (error) {
+            console.error('Erreur lors de la génération du PDF:', error);
+            alert("Une erreur est survenue lors de la génération du PDF.");
         }
     };
 
@@ -211,9 +240,9 @@ export default function Cv() {
                 <section className="mt-8">
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Diplomas and certifications</h2>
                     <div className="space-y-4">
-                    <div>
+                        <div>
                             <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section8')}>
-                                Initiation to Agentic Agents 
+                                Initiation to Agentic Agents
                                 <span className="float-right">{openSections['section8'] ? '-' : '+'}</span>
                             </button>
                             {openSections['section8'] && (
@@ -261,7 +290,7 @@ export default function Cv() {
                                 <span className="float-right">{openSections['section12'] ? '-' : '+'}</span>
                             </button>
                             {openSections['section12'] && (
-                                <div className="mt-2 text-gray-700">    
+                                <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Google programm, Sept 2022</p>
                                 </div>
                             )}
@@ -270,7 +299,7 @@ export default function Cv() {
                             <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section13')}>
                                 Google numeric marketing Certification
                                 <span className="float-right">{openSections['section13'] ? '-' : '+'}</span>
-                            </button>   
+                            </button>
                             {openSections['section13'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Google programm, Jun 2022</p>
