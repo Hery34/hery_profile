@@ -90,7 +90,7 @@ export default function Cv() {
                 <header className="flex justify-between items-center mb-6">
                     <div className="text-left">
                         <h1 className="text-4xl font-bold mb-2 text-black">Hery Rakotomanana Andrianjohany</h1>
-                        <p className="text-gray-600 font-bold mb-2">Lead Developer</p>
+                        <p className="text-gray-600 font-bold mb-2">Full Stack Developer</p>
                         <a href="mailto:me@hery.website" >
                             <p className="text-gray-600">me@hery.website</p>
                         </a>
@@ -105,41 +105,56 @@ export default function Cv() {
                 <section className="mt-8">
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Profile</h2>
                     <p className="text-gray-700">
-                        I'm a dedicated mobile application developer with a strong foundation in Flutter, Java (Spring Framework), React (Next.js) and SQL (Mysql, Sqlite, PostgreSQL). I'm skilled in managing projects from inception to completion, ensuring meticulous attention to detail and optimized code. My approach is rooted in SOLID principles, clean coding practices, and effective design patterns, enabling me to deliver robust and maintainable solutions.
-                        In addition to my existing skills, I have recently developed an interest in artificial intelligence (AI), with a particular focus on integrating machine learning and natural language processing into various projects. I also possess expertise in building and managing AI teams, which allows me to effectively coordinate efforts to develop innovative and high-performance solutions.
+                        I'm a full stack developer with a strong foundation in Flutter, Java (Spring Framework), React (Next.js) and SQL (Mysql, Sqlite, PostgreSQL). I'm skilled in managing projects from inception to completion, ensuring meticulous attention to detail and optimized code. My approach is rooted in SOLID principles, clean coding practices, and effective design patterns, enabling me to deliver robust and maintainable solutions.
+                        In addition to my existing skills, I have recently developed an interest in artificial intelligence (AI) and automation, with a particular focus on integrating machine learning and natural language processing into various projects. I also possess expertise in building and managing AI teams, which allows me to effectively coordinate efforts to develop innovative and high-performance solutions.
                     </p>
                 </section>
 
                 <section className="mt-8">
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Work experience</h2>
                     <div className="space-y-4">
-                        <div>
+                    <div>
                             <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section1')}>
-                                Mobile App Designer-Developer
+                            Full Stack Developer
                                 <span className="float-right">{openSections['section1'] ? '-' : '+'}</span>
                             </button>
                             {openSections['section1'] && (
                                 <div className="mt-2 text-gray-700">
-                                    <p className="text-red-500">Annexx SA - Montpellier, Oct 2024 - now</p>
+                                    <p className="text-red-500">Annexx SA - Montpellier, Jan 2025 - now</p>
                                     <ul className="list-disc list-inside text-gray-600">
-                                        <li>Lead the development and maintenance of a suite of mobile applications, resulting in [quantifiable improvement, e.g., increased user engagement, reduced support costs], consistently delivering new features and improvements</li>
-                                        <li>Conceived and developed a full-stack internal staff app (Flutter, Supabase, n8n), boosting onsite agent productivity and implementing tailored site monitoring dashboards.</li>
-                                        <li>Built and deployed multiple custom internal apps to address specific business needs, distributed via Apple Business Manager and private Android links.</li>
-                                        <li>Deployed and managed Eset Protect MDM across the company's entire mobile fleet (Android & iOS), designing and applying security policies adapted to business requirements.</li>
-                                        <li>Set up and managed the Apple Business Manager account, integrating MDM, provisioning managed accounts tied to the company domain, onboarding Apple devices via App Configurator, and delivering Annexx’s overarching ABM device management strategy.</li>
-                                        <li>Developed a full-stack autonomous delivery solution featuring a NextJS front-end with PWA capabilities, Supabase backend, and n8n workflow automation, integrated with AI-powered label decryption toolsDesigned and developed a full-stack autonomous delivery solution: NextJS front-end with PWA layer, Supabase and n8n back-end, Google Vision API, and AI-powered labeling tools.Setup and management of the company's Apple Business Manager account</li>
-                                        <li>Led the implementation of automation solutions, including the deployment of AI agents and integration of AI into business processes. Established department-wide debugging and monitoring tools for web and mobile development.</li>
-                                        <li>Successfully delivered all projects on schedule and within budget, contributing to measurable business improvements such as increased productivity and operational efficiency.</li>
+                                    <li>Designed and developed a full-stack autonomous delivery system (NextJS PWA, Supabase, AI/OCR) enabling couriers to deliver independently via QR code authentication, with automated notifications and tamper-proof delivery proofs, significantly reducing on-site staff burden.</li>
+        <li>Built a Flutter-based site monitoring mobile app with geolocation-driven task routing, automatically loading site-specific routines and generating comprehensive daily activity reports with full actor traceability, streamlining on-site team handovers and incident tracking.</li>
+        <li>Deployed and managed an internal n8n automation server as a central process orchestration hub, decoupling business logic from tool-specific implementations and enabling scalable workflow automation across departments.</li>
+        <li>Developed custom HubSpot applications to establish seamless connectivity and bi-directional synchronization between HubSpot and internal databases, improving data consistency and workflow integration.</li>
+        <li>Engineered and deployed department-specific AI agents tailored to unique business needs, enhancing operational efficiency and enabling intelligent automation across various workflows.</li>
                                     </ul>
                                 </div>
                             )}
                         </div>
                         <div>
                             <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section2')}>
-                                Work-study mobile developer
+                                Mobile App Designer-Developer
                                 <span className="float-right">{openSections['section2'] ? '-' : '+'}</span>
                             </button>
                             {openSections['section2'] && (
+                                <div className="mt-2 text-gray-700">
+                                    <p className="text-red-500">Annexx SA - Montpellier, Oct 2024 - Dec 2024</p>
+                                    <ul className="list-disc list-inside text-gray-600">
+                                    <li>Led the development and maintenance of a suite of mobile applications, consistently delivering new features and improvements that increased user engagement and operational efficiency.</li>
+        <li>Built and deployed multiple custom internal mobile apps (Flutter, Supabase, n8n) to address specific business needs, distributed via Apple Business Manager and private Android distribution channels.</li>
+        <li>Deployed and managed Eset Protect MDM across the company's entire mobile fleet (Android & iOS), designing and implementing security policies adapted to business requirements and device usage patterns.</li>
+        <li>Established and managed the company's Apple Business Manager account end-to-end: integrated MDM solutions, provisioned managed accounts tied to the company domain, configured device onboarding via Apple Configurator, and defined the organization's comprehensive ABM device management strategy.</li>
+        <li>Initiated company-wide automation and AI integration initiatives, including the deployment of AI agents, establishment of debugging and monitoring tools for web and mobile development, and integration of AI capabilities into core business processes.</li>
+                                    </ul>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section3')}>
+                                Work-study mobile developer
+                                <span className="float-right">{openSections['section3'] ? '-' : '+'}</span>
+                            </button>
+                            {openSections['section3'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-red-500">Annexx SA - Montpellier, Sept 2023 - Sept 2024</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -153,11 +168,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section3')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section4')}>
                                 Lead Developper student
-                                <span className="float-right">{openSections['section3'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section4'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section3'] && (
+                            {openSections['section4'] && (
                                 <div className="mt-2  text-gray-700">
                                     <p className="text-red-900">Doranco - Sup des Tech créatives - Paris, Sept 2023 - now</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -170,11 +185,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section4')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section5')}>
                                 Founding manager
-                                <span className="float-right">{openSections['section4'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section5'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section4'] && (
+                            {openSections['section5'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-yellow-900">Le Grenier à épices - Montpellier, Apr 2021 - Dec 2023</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -186,11 +201,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section5')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section6')}>
                                 Web and mobile web development student
-                                <span className="float-right">{openSections['section5'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section6'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section5'] && (
+                            {openSections['section6'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-blue-600">Beweb Fondespierre Ressources Humaines - Montpellier, Dec 2022 - Oct 2023</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -205,11 +220,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section6')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section7')}>
                                 Web application developer intern
-                                <span className="float-right">{openSections['section6'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section7'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section6'] && (
+                            {openSections['section7'] && (
                                 <div className="mt-2  text-gray-700">
                                     <p className="text-pink-600">PP Limted - Paris, Dec 2022 - Oct 2023</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -225,11 +240,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section7')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section8')}>
                                 Logistic Manager
-                                <span className="float-right">{openSections['section7'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section8'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section7'] && (
+                            {openSections['section8'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-green-700">Soredim SA - Madagascar, Feb 2005 - Mar 2015</p>
                                     <ul className="list-disc list-inside text-gray-600">
@@ -248,89 +263,89 @@ export default function Cv() {
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Diplomas and certifications</h2>
                     <div className="space-y-4">
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section8')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section9')}>
                                 Initiation to Agentic Agents
-                                <span className="float-right">{openSections['section8'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section9'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section8'] && (
+                            {openSections['section9'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">CrewAI - Delaware, USA, March 2025</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section9')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section10')}>
                                 Databases - Relationnal Databases and SQL Certification
-                                <span className="float-right">{openSections['section9'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section10'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section9'] && (
+                            {openSections['section10'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Stanford University Online, still running</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section10')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section11')}>
                                 Lead Developer Certification
-                                <span className="float-right">{openSections['section10'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section11'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section10'] && (
+                            {openSections['section11'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Doranco - Sup des Tech créatives - Paris, Oct 2024</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section11')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section12')}>
                                 Front-end Web and mobile web development Certification
-                                <span className="float-right">{openSections['section11'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section12'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section11'] && (
+                            {openSections['section12'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Beweb Fondespierre Ressources Humaines - Montpellier, Oct 2023 </p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section12')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section13')}>
                                 Google adds display Certification
-                                <span className="float-right">{openSections['section12'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section13'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section12'] && (
+                            {openSections['section13'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Google programm, Sept 2022</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section13')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section14')}>
                                 Google numeric marketing Certification
-                                <span className="float-right">{openSections['section13'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section14'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section13'] && (
+                            {openSections['section14'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Google programm, Jun 2022</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section14')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section15')}>
                                 RGPDR Certification
-                                <span className="float-right">{openSections['section14'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section15'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section14'] && (
+                            {openSections['section15'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">CNIL MOOC, Dec 2020</p>
                                 </div>
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section15')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section16')}>
                                 License
                                 Management Science
-                                <span className="float-right">{openSections['section15'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section16'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section15'] && (
+                            {openSections['section16'] && (
                                 <div className="mt-2 text-gray-700">
                                     <p className="text-gray-600">Antananarivo University Madagascar, Feb 2007</p>
                                 </div>
@@ -344,11 +359,11 @@ export default function Cv() {
                     <h2 className="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4 text-black">Skills</h2>
                     <div className="space-y-4">
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section16')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section17')}>
                                 Front-end
-                                <span className="float-right">{openSections['section16'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section17'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section16'] && (
+                            {openSections['section17'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Languages : HTML, CSS, JavaScript, Dart</li>
@@ -358,11 +373,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section17')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section18')}>
                                 Back-end
-                                <span className="float-right">{openSections['section17'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section18'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section17'] && (
+                            {openSections['section18'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Languages : Java, PHP, NodeJs</li>
@@ -372,11 +387,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section18')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section19')}>
                                 Database
-                                <span className="float-right">{openSections['section18'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section19'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section18'] && (
+                            {openSections['section19'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Languages : SQL, PostgreSQL</li>
@@ -386,11 +401,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section19')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section20')}>
                                 DevOps
-                                <span className="float-right">{openSections['section19'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section20'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section19'] && (
+                            {openSections['section20'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Tools : Github, Gitlab, Docker, Vercel</li>
@@ -399,11 +414,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section20')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section21')}>
                                 IDE
-                                <span className="float-right">{openSections['section20'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section21'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section20'] && (
+                            {openSections['section21'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Visual Studio Code, Android Studio, XCode, IntelliJ IDEA, Eclipse, Cursor, Claude Code</li>
@@ -412,11 +427,11 @@ export default function Cv() {
                             )}
                         </div>
                         <div>
-                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section21')}>
+                            <button className="text-xl font-semibold w-full text-left text-black" onClick={() => toggleSection('section22')}>
                                 Tools, Methodology and usual languages
-                                <span className="float-right">{openSections['section21'] ? '-' : '+'}</span>
+                                <span className="float-right">{openSections['section22'] ? '-' : '+'}</span>
                             </button>
-                            {openSections['section21'] && (
+                            {openSections['section22'] && (
                                 <div className="mt-2 text-gray-700">
                                     <ul className="list-disc list-inside text-gray-600">
                                         <li>Figma, Draw.io, Looping, Agile, Scrum, Kanban, Obsidian </li>
